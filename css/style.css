@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+}
+.content-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(230, 210, 142, 0.29);
+}
+
+.homepage-container{
+    padding-top: 50px;
+    width: 100%;
+    height: 800px;
+}
+
+.homepage-img-container{
+    background-size: cover;
+    height: 800px;
+    width: 750px;
+    margin: 0 auto;
+    background-image: url(../img/titelseite.svg)
+}
+
+.aboutMe-container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.aboutMe-border {
+    border: 2px solid black;
+    height: 600px;
+    position: absolute;
+    left: 10px;
+    width: 100%;
+    top: 105px;
+    z-index: -5;
+}
+
+.aboutMe-img {
+    background-image: url(../img/david.jpg);
+    height: 350px;
+    width: 250px;
+    background-size: cover;
+    position: relative;
+}
+
+.aboutMe-img-border {
+    border: 1px solid #D1B27F;
+    height: 100%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 100%;
+}
+
+.aboutMe-img-container {
+    position: absolute;
+    left: -50px;
+    z-index: 5;
+    margin-top: 40px;
+}
+
+.aboutMe-title {
+    text-align: center;
+    font-size: 90pt;
+    font-family: 'Playfair Display';
+    color: #CAAD81;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: bold;
+  src: url(./fonts/PlayfairDisplay-BoldItalic.ttf);
+}
+
+@font-face{
+    font-family: 'spinwerad';
+    font-weight: bold;
+    src: url(./fonts/spinwerad.ttf)
+}
+
+@font-face{
+    font-family: 'lato';
+    font-weight: 400;
+    src: url(./fonts/Lato-Light.ttf)
+}
+
+.aboutMe-content-container {
+    position: relative;
+}
+
+.aboutMe-upper-container {
+    display: flex;
+    height: 200px;
+}
+
+.aboutMe-signature-container {
+    width: 30%;
+    text-align: center;
+}
+
+.aboutMe-text {
+    position: absolute;
+    width: 70%;
+    right: 0;
+    text-align: justify;
+    font-family: lato;
+}
+
+.aboutMe-text-container {
+    width: 55%;
+    position: relative;
+}
+
+.aboutMe-signature {
+    height: 100px;
+}
+
+.aboutMe-lower-container {
+    width: 80%;
+    position: absolute;
+    right: 50px;
+}
+
+.aboutMe-subtitle {
+   color: #4D4D4D;
+    font-family: spinwerad;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aboutMe-progress-container1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.aboutMe-progress-container1 p{
+    font-family: Playfair Display;
+    font-size: 15pt;
+}
+
+.aboutMe-progress-container2 p{
+    font-family: Playfair Display;
+    font-size: 15pt;
+}
+
+.progressbar-container {
+    width: 40%;
+    margin: 5px;
+    height: 40px;
+    border: 1px solid black;
+    border-bottom: none;
+    position: relative;
+}
+
+.aboutMe-progress-container2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.progress-information {
+    height: 30px;
+    width: 95%;
+    position: absolute;
+    background-color: #D1B27F;
+    z-index: -3;
+}
+
+.progress-information2 {
+    width: 100%;
+     height: 30px;
+        position: absolute;
+    background-color: #D1B27F;
+    z-index: -3;
+}
+
+.progress-information3 {
+    width: 65%;
+     height: 30px;
+        position: absolute;
+    background-color: #D1B27F;
+}
+
+.progress-information4 {
+    width: 90%;
+     height: 30px;    position: absolute;
+    background-color: #D1B27F;
+}
+
+.progress-text-number {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+}
+
+.progress-text-number2 {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+}
+
+.progress-text-number3 {
+    position: absolute;
+    right: 35%;
+    bottom: 0;
+}
+
+.progress-text-number4 {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+}
+
+.progress-text-text {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+
+.progress-text-text2 {
+       position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+
+.progress-text-text3 {
+       position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+
+.progress-text-text4 {
+       position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+
+.prefernces-container {
+    width: 100%;
+    height: 900px;
+    margin-top: 300px;
+    display: flex;
+    position: relative;
+}
+
+.prefernces-weakness {
+    width: calc(50% - 30px);
+    height: 850px;
+    background-image: url(../img/Mockup_weakness.png);
+    background-size: cover;
+    margin: 15px;
+    position: absolute;
+    right: 0;
+    transition: margin-right 1s;
+    top: 0;
+}
+
+.prefernces-strength {
+    width: calc(50% - 30px);
+    height: 850px;
+    background-image: url(../img/Mockup_strength.png);
+    background-size: cover;
+    margin: 15px;
+    transition: margin-left 1s;
+    position: absolute;
+}
+
+.prefernces-container:hover > .prefernces-strength{
+  margin-left: 100px;
+}
+
+.prefernces-container:hover > .prefernces-weakness{
+  margin-right: 100px;
+}
+
+.wb-container {
+    height: 1050px;
+    width: 100%;
+    position: relative;
+}
+
+.wb-border {
+    border: 2px solid black;
+    border-bottom: none;
+    height: 100%;
+    position: absolute;
+    left: 51px;
+    top: 85px;
+    width: 100%;
+}
+
+.wb-upper-container:nth-of-type(3) {
+
+    margin-top: 90px;
+}
+.wb-upper-container {
+    width: 80%;
+    height: 350px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.wb-title {
+     color: #303030 ;
+    font-family: Playfair Display;
+    font-size: 80pt
+}
+
+.wb-flag {
+    width: 15%;
+    height: 400px;
+    position: relative;
+}
+
+.flag-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.flag-mid {
+    background-color: rgba(209, 178, 127, 0.75);
+}
+
+.flag-title {
+    position: absolute;
+    top: -50px;
+    font-family: Spinwerad;
+    font-size: 35pt;
+    font-style: bold;
+    right: 0;
+    color: #303030 ;
+}
+
+.wb-upper-container:nth-of-type(2) {
+    margin-top: 50px
+}
+
+.uek-container {
+    width: 100%;
+    position: relative;
+}
+
+.uek-flag-container {
+    width: 200px;
+    height: 300px;
+    position: relative;
+}
+
+.wb-border-bottom {
+    border: 2px solid black;
+    border-top: none;
+    height: 85%;
+    position: absolute;
+    left: 51px;
+    top: 85px;
+    width: 100%;
+}
+
+.uek-content-container {
+        display: flex;
+    justify-content: space-around;
+        position: relative;
+    padding-top: 50px;
+}
+
+.move-content-container {
+    margin: 0 auto;
+    width: 800px;
+    background-color: transparent;
+}
+
+video {
+    border: 2px solid black;
+}
+
+.movie-container {
+    margin-top: 50px;
+}
+
+.movie-title {
+    color: #303030 ;
+    font-family: Playfair Display;
+    font-size: 60pt;
+    
+}
